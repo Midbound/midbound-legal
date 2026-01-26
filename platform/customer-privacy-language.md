@@ -78,7 +78,7 @@ At or before the time of collection, we inform you that we collect:
 - Identifiers and professional information through website analytics for B2B marketing purposes
 - Internet activity information to analyze website performance and visitor interests
 
-This information may be sold or shared as those terms are defined under California law. You can opt-out using the link: https://midbound.ai/optout
+This information may be sold or shared as those terms are defined under California law. You can opt-out using the link: [https://midbound.ai/optout](midbound.ai/optout)
 
 ## Updates to This Section
 
