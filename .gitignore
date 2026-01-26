@@ -1,8 +1,27 @@
-_site
-.sass-cache
-.jekyll-cache
+# Jekyll build output
+_site/
+.sass-cache/
+.jekyll-cache/
 .jekyll-metadata
-vendor
-.bundle
+
+# Bundler
+vendor/
+.bundle/
+
+# macOS
 .DS_Store
-.claude
+.AppleDouble
+.LSOverride
+
+# IDE / Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Claude Code
+.claude/
+
+# Local env
+.env
+.env.local

@@ -12,17 +12,17 @@ layout: default
   {% assign cloud_pages = site.pages | where: "product", "cloud" | sort: "order" %}
   {% assign platform_pages = site.pages | where: "product", "platform" | sort: "order" %}
 
-  <div class="section section--cloud">
+  <div class="section section--platform">
     <div class="section-header">
-      <img src="{{ '/assets/images/logo-midbound_cloud.png' | relative_url }}" alt="Midbound Cloud" class="section-logo section-logo--cloud">
+      <img src="{{ '/assets/images/logo-midbound_platform.png' | relative_url }}" alt="Midbound Platform" class="section-logo section-logo--platform">
       <div class="section-header-text">
-        <h2 class="section-title">Midbound Cloud</h2>
-        <span class="section-domain">midbound.cloud</span>
+        <h2 class="section-title">Midbound Platform</h2>
+        <span class="section-domain">midbound.ai</span>
       </div>
     </div>
-    {% if cloud_pages.size > 0 %}
+    {% if platform_pages.size > 0 %}
     <ul class="document-list">
-      {% for doc in cloud_pages %}
+      {% for doc in platform_pages %}
       <li class="document-item">
         <a href="{{ doc.url | relative_url }}" class="document-link">
           <p class="document-title">{{ doc.title }}</p>
@@ -36,17 +36,17 @@ layout: default
     {% endif %}
   </div>
 
-  <div class="section section--platform">
+  <div class="section section--cloud">
     <div class="section-header">
-      <img src="{{ '/assets/images/logo-midbound_platform.png' | relative_url }}" alt="Midbound Platform" class="section-logo section-logo--platform">
+      <img src="{{ '/assets/images/logo-midbound_cloud.png' | relative_url }}" alt="Midbound Cloud" class="section-logo section-logo--cloud">
       <div class="section-header-text">
-        <h2 class="section-title">Midbound Platform</h2>
-        <span class="section-domain">midbound.ai</span>
+        <h2 class="section-title">Midbound Cloud</h2>
+        <span class="section-domain">midbound.cloud</span>
       </div>
     </div>
-    {% if platform_pages.size > 0 %}
+    {% if cloud_pages.size > 0 %}
     <ul class="document-list">
-      {% for doc in platform_pages %}
+      {% for doc in cloud_pages %}
       <li class="document-item">
         <a href="{{ doc.url | relative_url }}" class="document-link">
           <p class="document-title">{{ doc.title }}</p>
